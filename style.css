@@ -48,7 +48,7 @@
 }
 
 .board.x .cell:not(.x):not(.circle):hover::before,
-.board.x .cell:not(.x):not(.circle):hover::before,
+.board.x .cell:not(.x):not(.circle):hover::after,
 .board.circle .cell:not(.x):not(.circle):hover::before 
 {
     background-color: rgba(216, 12, 12, 0.541);
